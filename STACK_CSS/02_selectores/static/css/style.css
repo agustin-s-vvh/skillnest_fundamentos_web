@@ -1,14 +1,48 @@
 /* Selección a través de etiquetas */
 h1 {
-   color: royalblue;
+    color: royalblue;
 }
 
 /* Selección a través de clases (.) */
-.rojo{
+.rojo {
     color: red;
 }
 
 /* Selección a través de ID (#) */
 #amarillo {
     color: yellow;
+}
+
+/* Sitio de Ejemplo */
+h1 {
+    color: royalblue;
+    /* text-align: Disposición del texto - centrado - derecha */
+}
+
+
+p {
+    text-align: right;
+}
+
+.is-centered {
+    text-align: center;
+}
+
+
+.is-orange {
+    color: darkorange;
+}
+
+#container {
+    width: 200px; /* Ancho */
+    height: 200px; /* ALtura */
+    padding: 10px; /* Espacio interno */
+}
+
+#avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* agrega al elemento esquinas redondeadas*/
+    margin-top: 20px; /* Margen superior (espacio externo) */
+    margin-left: 25px; /* Margen izquierdo */
 }
