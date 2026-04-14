@@ -77,10 +77,13 @@ input[type="submit"] {
 }
 .color_nombre{
     color: green;
+    background-color: dimgray;
 }
 .color_rgb{
     color: rgb(12, 12, 73);
+    background-color: dimgray;
 }
 .color_hex{
     color: #410a3c;
+    background-color: dimgray;
 }
