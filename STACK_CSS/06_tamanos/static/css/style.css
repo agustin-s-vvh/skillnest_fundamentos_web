@@ -39,6 +39,7 @@ padding: 15px;
     font-size: 30px; /* Tamaño  proporcional */
 }
 .cursiva{
+    color: red; 
     margin-top: 10px;
 font-style: italic; /* Cursiva */
 }
