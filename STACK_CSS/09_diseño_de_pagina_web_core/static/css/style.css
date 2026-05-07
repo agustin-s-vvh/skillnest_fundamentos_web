@@ -6,7 +6,7 @@
     text-align: center;
 }
 
-/*---HEADER---*/
+/*HEADER*/
 .header{
     background-color: #1E3A5F;
     color: white;
@@ -17,7 +17,7 @@
     background-color: #2C5282;
 }
 
-.boton{
+.btn{
     display: inline-block;
     background-color: #2C5282;
     color: white;
@@ -30,8 +30,8 @@
 .boton:hover{
     background-color: #335f96;
 }
-/* MAIN */
-.contenedor_principal{
+/* main */
+.contenedorPrincipal{
     padding: 25px 50px;
 }
 .contenedor{
@@ -40,13 +40,13 @@
     padding: 30px;
     margin: 10px 90px 0px 90px;
 }
-.conte{
+.cont{
     padding: 30px 0px;
     background-color: #2C5282;
     border-radius: 5px;
     color: white;
 }
-.contenedor_tarjeta{
+.contenedorTarjeta{
     padding: 20px;
 }
 .box{
