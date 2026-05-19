@@ -1,0 +1,95 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+body{
+background-color: rgba(104, 84, 88, 0.151);
+font-family: Arial, Helvetica, sans-serif;
+color: #333;
+}
+
+header{
+    background-color: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+/* Diseño de NAV */
+.nav{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+background-color: #334155;
+padding: 15px;
+}
+
+.nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main{
+padding: 30px;
+
+}
+.seccion{
+    background-color: white;
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.623);
+}
+.contenedor{
+    display: flex;
+    background-color: rgb(196, 193, 193);
+    height: 200px;
+    border: 3px dashed #94a3b8;
+    margin-top: 20px;
+}
+/*CAJAS A MANIPULAR*/
+.caja{
+    width: 80px;
+    height: 80px;
+    background-color: steelblue;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 10px;
+    /* Display flex */
+    display: flex;
+    justify-content: center; /*Centra horizontalmente */ 
+    align-items: center; /* Centra Verticalmente */
+}
+
+/* EJEMPLOS */
+/* 1.- justify-content + gap */
+.ejemplo1{
+    justify-content: center;
+    gap: 20px;
+}
+/* align-items:center + gap */
+.ejemplo2{
+    align-items: center;
+    gap: 20px;
+}
+/* flex direcion column + gap */
+.ejemplo3{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+/* Space-between + align-items:center */
+.ejemplo4{
+justify-content: space-between;
+align-items: center;
+}
+/**/
+.ejemplo5{
+justify-content: center;
+align-items: center;
+}
