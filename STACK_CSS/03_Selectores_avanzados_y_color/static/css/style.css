@@ -34,7 +34,7 @@ h1 {
 }
 
 .quote h4 {
-    color: rgb(120, 213, 213);
+    color: rgb(137, 10, 175);
     font-weight: bold;
     /* Negrita */
 }
@@ -80,7 +80,7 @@ input[type="submit"] {
     background-color: dimgray;
 }
 .color_rgb{
-    color: rgb(12, 12, 73);
+    color: rgb(196, 17, 193);
     background-color: dimgray;
 }
 .color_hex{
