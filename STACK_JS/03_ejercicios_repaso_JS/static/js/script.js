@@ -78,10 +78,16 @@ function ejercicio1() {
 
 // Utilizar operadores lógicos para realizar las validaciones.
 
-function ejercicio2() {
-    let tipoUsuario = prompt("Ingresar tipo de usuario (Estudiante/Profesor): ");
-    let cantidadLibros = parseInt(prompt("Ingresar cantidad de libros solicitados: "));
-    let mensaje = "";}
+function ejercicio2(){
+    let tipo_usuario = prompt("Ingresar el tipo de usuario");
+    let cantidad_libros = parseInt(prompt("Ingresar cantidad de libros solicitados"));
+    let message = "";
+    if (tipo_usuario === estudiante && cantidad_libros > 0 && cantidad_libros < 5){
+        message = `Préstamo permitido para estudiante.`
+    }else if (tipo_usuario === profesor && cantidad_libros > 0 && cantidad_libros < 10){
+        message = ``}
+    alert(message);
+}
 
 // # Ejercicio 3: Clasificación Deportiva
 
@@ -102,7 +108,21 @@ function ejercicio2() {
 // - Edad
 // - Categoría asignada
 
-// ---
+function ejercicio3() {
+let nombre_participante = prompt("Ingresar nombre del participante");
+let edad = parseInt(prompt("Ingresar edad del participante"));
+let categoria = "categoría no asignada";
+if (edad >= 0 && edad <= 12) {
+    categoria = "Infantil";
+} else if (edad > 12 && edad <= 18) {
+    categoria = "Juvenil";
+} else if (edad > 18 && edad <= 35) {
+    categoria = "Adulto";
+} else if (edad > 35 && edad <= 100) {
+    categoria = "Senior";
+}
+alert(`Nombre: ${nombre_participante}\nEdad: ${edad}\nCategoría: ${categoria}`);
+}
 
 // # Ejercicio 4: Sistema de Bonificación
 
@@ -123,7 +143,22 @@ function ejercicio2() {
 // - Nivel de antigüedad
 // - Mensaje indicando si recibe o no bonificación.
 
-// ---
+function ejercicio4() {
+let nombre_trabajador = prompt("Ingresar nombre del trabajador");
+let años_servicio = parseInt(prompt("Ingresar años de servicio del trabajador"));
+let nivel_antiguedad = "Nivel de antigüedad no asignado";
+let mensaje_bonificacion = "No recibe bonificación";
+    if (años_servicio >= 0 && años_servicio < 5) {
+        nivel_antiguedad = "Junior";
+    } else if (años_servicio >= 5 && años_servicio < 10) {
+        nivel_antiguedad = "Semi-Senior";
+        mensaje_bonificacion = "Recibe bonificación";
+    } else if (años_servicio >= 10 && años_servicio < 20) {
+        nivel_antiguedad = "Senior";
+        mensaje_bonificacion = "Recibe bonificación";
+    }
+    alert(`Nombre: ${nombre_trabajador}\nNivel de antigüedad: ${nivel_antiguedad}\nMensaje: ${mensaje_bonificacion}`);
+}
 
 // # Ejercicio 5: Evaluación de Velocidad
 
@@ -147,3 +182,24 @@ function ejercicio2() {
 // - Nombre del conductor
 // - Velocidad
 // - Clasificación obtenida
+
+function ejercicio5() {
+    let nombre_conductor = prompt("Ingresar nombre del conductor");
+    let velocidad = parseInt(prompt("Ingresar velocidad registrada (km/h)"));
+    let clasificacion = "Clasificación no asignada";
+    let mensaje_exceso = "exceso de velocidad";
+    if (velocidad >= 0 && velocidad <= 60) {
+        clasificacion = "Velocidad baja";
+    }
+    else if (velocidad > 60 && velocidad <= 100) {
+        clasificacion = "Velocidad moderada";
+    }
+    else if (velocidad > 100 && velocidad <= 140) {
+        clasificacion = "Velocidad alta";
+    }
+    else if (velocidad > 140) {
+        clasificacion = "Velocidad muy alta";
+        mensaje_exceso = "Ha excedido la velocidad permitida";
+    }
+    alert(`Nombre del conductor: ${nombre_conductor}\nVelocidad: ${velocidad} km/h\nClasificación: ${clasificacion}\nMensaje: ${mensaje_exceso}`);
+}
