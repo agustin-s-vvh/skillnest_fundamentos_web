@@ -23,10 +23,51 @@ function recorrerLista() {
     alert(nombres=[1]) --> Imprime María
     alert(nombres.length); --> 2 (largo nombres)
     */
+    /* la lista es un tipo de dato */
     let usuarios = ["Ana", "Luis", "María"];
 
     for (let i = 0; i < usuarios.length; i++) {
         alert("Bienvenido, " + usuarios[i]);
     }
 }
+
 /* Ejemplo Bucle while */
+function reproducirCancion() {
+    let reproduciendo = true;
+
+    while (reproduciendo) {
+        alert("La canción sigue sonando...");
+        // Simulación de una acción que detendría la reproducción
+        reproduciendo = false;
+    }
+}
+
+function cargarDatos() {
+    let datosPendientes = 5;
+
+    while (datosPendientes > 0) {
+        alert(`Cargando datos... ${datosPendientes} de 5`);
+        datosPendientes--;
+    }
+}
+
+function validarContrasena() {
+    let contraseñaCorrecta = false;
+/* !variables = variable es distinta a verdadero - dentro de condición */
+    while (!contraseñaCorrecta  ) {
+        let intento = prompt("Ingresa tu contraseña:");
+        if (intento === "1234") {
+            contraseñaCorrecta = true;
+            alert("Acceso concedido.");
+            break; //Rompe el bucle.
+            alert("no se ejecuta")
+            alert("Contraseña incorrecta, intenta de nuevo.");
+        }
+    }
+}
+
+function as(){
+while (true) {
+    console.log("Este mensaje nunca dejará de mostrarse.");
+}
+}
