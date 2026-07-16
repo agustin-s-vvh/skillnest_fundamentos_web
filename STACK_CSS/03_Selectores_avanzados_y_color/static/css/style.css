@@ -80,10 +80,11 @@ input[type="submit"] {
     background-color: dimgray;
 }
 .color_rgb{
-    color: rgb(196, 17, 193);
+    color: rgb(205, 9, 189);
     background-color: dimgray;
 }
 .color_hex{
     color: #410a3c;
     background-color: dimgray;
 }
+

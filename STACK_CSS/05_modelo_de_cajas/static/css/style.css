@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f2f6fb;
+}
+
+main {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+.cuadros {
+    display: flex;
+    gap: 10px;
+}
+
+.cajas_uno {
+    background-color: #008dd2;
+}
+
+.cajas_dos {
+    background-color: #ee433a;
+}
+
+.cajas_tres {
+    background-color: #00c56a;
+}
+
+.cajas_uno,
+.cajas_dos,
+.cajas_tres {
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+}
