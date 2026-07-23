@@ -1,7 +1,5 @@
 console.log("Conexión con js exitosa...")
 
-console.log("Conexión con js...")
-
 function game() {
 
     let videojuegos = [
