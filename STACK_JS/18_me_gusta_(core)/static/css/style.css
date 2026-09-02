@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.barra {
+    background-color: #3F3F3F;
+    display: flex;
+    justify-content: center;
+    padding: 17px;
+    margin-bottom: 10px;
+}
+
+.nombre {
+    color: white;
+}
+
+.contenido {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.cuadro {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 30px 10px 30px;
+    gap: 10px;
+    border: solid black 1.5px;
+    border-radius: 10px;
+    margin-top: 58px;
+}
+
+.usuario img {
+    height: 120px;
+    border-radius: 50%;
+}
+
+.verPerfil {
+    background-color: #2B9DC0;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 3px;
+    width: 100px;
+}
+
+.publicaciones {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.datos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.publicacion {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 20px 10px 20px;
+    gap: 10px;
+    border: solid black 1.5px;
+    border-radius: 10px;
+    background-color: #F4F4F4;
+    width: 800px;
+}
+
+.accionLike {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.botonLike {
+    color: black;
+    background-color: #FFD06B;
+    border: none;
+    border-radius: 4px;
+    padding: 3px;
+    width: 60px;
+    cursor: pointer;
+}

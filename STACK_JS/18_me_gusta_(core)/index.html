@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Agustín Sanchez">
+    <title>Evento onclick</title>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="barra">
+            <h1 class="nombre">Social Like</h1>
+        </nav>
+    </header>
+
+    <main class="contenido">
+        <section class="usuario">
+            <div class="cuadro">
+                <img src="static/images/misato.png" alt="">
+                <h2>Misato</h2>
+                <button class="verPerfil">Ver perfil</button>
+            </div>
+        </section>
+
+        <section class="publicaciones">
+            <h1>Ultimas Publicaciones</h1>
+
+            <div class="publicacion">
+                <div class="datos">
+                    <h2>Rei</h2>
+
+                    <div class="accionLike">
+                        <p class="contador">
+                            <span id="contador1">0</span> Like(s)
+                        </p>
+                        <button id="like1" class="botonLike">like</button>
+                    </div>
+                </div>
+
+                <p>
+                    Acabo de cnfigurar este nuevo
+                    <a href="#">bot de Discord</a>,
+                    cuentame que opinan ustedes.
+                </p>
+            </div>
+
+            <div class="publicacion">
+                <div class="datos">
+                    <h2>Asuka</h2>
+
+                    <div class="accionLike">
+                        <p class="contador">
+                            <span id="contador2">0</span> Like(s)
+                        </p>
+                        <button id="like2" class="botonLike">like</button>
+                    </div>
+                </div>
+
+                <p>
+                    Acabo de leer este
+                    <a href="#">nuevo comic</a>.
+                    Denle un vistazo.
+                </p>
+            </div>
+
+            <div class="publicacion">
+                <div class="datos">
+                    <h2>Shinji</h2>
+
+                    <div class="accionLike">
+                        <p class="contador">
+                            <span id="contador3">0</span> Like(s)
+                        </p>
+                        <button id="like3" class="botonLike">like</button>
+                    </div>
+                </div>
+
+                <p>
+                    No puedo dejar de escuchar este
+                    <a href="#">album</a>.
+                    ¿A quien mas le gusta?
+                </p>
+            </div>
+
+        </section>
+    </main>
+
+    <script src="static/js/scipt.js"></script>
+</body>
+
+</html>
